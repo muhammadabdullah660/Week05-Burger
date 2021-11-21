@@ -1,0 +1,119 @@
+/* font-family: 'Archivo', sans-serif;
+font-family: 'Calistoga', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.burgerWhite {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+.navText {
+  padding-top: 15px;
+  color: white;
+  font-size: 100%;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 50px;
+}
+@media screen and (max-width: 992px) {
+  .navText {
+    font-size: 80%;
+    word-spacing: 20px;
+    padding-top: 10px;
+  }
+  .burgerWhite {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navText {
+    font-size: 40%;
+    word-spacing: 16px;
+    padding-top: 10px;
+  }
+  .burgerWhite {
+    width: 150%;
+  }
+}
+.headerCon {
+  height: 150%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8855917366946778) 8%,
+      rgba(255, 255, 255, 0) 17%
+    ),
+    url(./Images/ed85bfaa-17fc-4c9f-9482-d9214828fcf6.jpg);
+}
+.Title {
+  font-family: "Archivo", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.06;
+  text-align: left;
+  font-size: 500%;
+  margin-left: 9%;
+  margin-top: 12%;
+}
+@media screen and (max-width: 980px) {
+  .Title {
+    font-size: 200%;
+  }
+}
+.Body_Text {
+  font-family: "Nunito", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  margin-left: 9%;
+  margin-top: 8%;
+  font-size: 100%;
+  text-align: left;
+}
+@media screen and (min-width: 992px) {
+  .Body_Text {
+    font-size: 150%;
+  }
+}
+.Order_Now {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  background-color: rgb(246, 75, 60);
+  border: none;
+  padding: 2% 8% 2% 8%;
+  border-radius: 100px;
+  font-size: 90%;
+  margin-left: 9%;
+  margin-top: 2%;
+}
+.Order_Now:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(246, 75, 60);
+}
+.chefCon {
+  background-color: rgb(246, 238, 223);
+  width: auto;
+  height: 800px;
+}
+.chefConTitle {
+  margin-top: 5%;
+  font-family: "Archivo", sans-serif;
+  color: rgb(246, 75, 60);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.chefConP {
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(246, 75, 60);
+  line-height: 1.2;
+  text-align: center;
+}
